@@ -112,22 +112,29 @@ let excelHelpWb = new ExcelHelp().addSheet(
    ]
 }
 ],
-"sheet1", //Name of the sheet (Not Mandatory)
-config?config:{} // config object (NotMandatory)
-).addSheet(
+"sheet1",     //Name of the sheet (Not Mandatory)
+
+config?config:{}    // config object (NotMandatory)
+
+)
+.addSheet(
 [
-		{
-			"type": "json", 
-			"data": [
-				{
-					"foo":"xyz",
-					"bar":"lak",
-					"abc":"mkx"
-				}]
-		}
-],
-"sheet2", //Name of the sheet (Not Mandatory)
-config?config:{} // config object (NotMandatory)
+ {
+    "type": "json",
+      "data": [
+        {
+          "foo":"xyz",
+          "bar":"lak",
+          "abc":"mkx"
+        }
+      ]
+   }
+ ],
+
+"sheet2",   //Name of the sheet (Not Mandatory)
+
+config?config:{}   // config object (NotMandatory)
+
 )
 .build() 
 
