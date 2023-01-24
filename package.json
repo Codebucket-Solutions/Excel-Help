@@ -1,0 +1,25 @@
+{
+  "name": "excel-help",
+  "version": "1.0.0",
+  "description": "Helper + Middleware for exporting excel files based on sheetjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "xlsx",
+    "converter",
+    "json-xlsx",
+    "xlsx",
+    "excel",
+    "csv",
+    "sheetjs",
+    "sheet.js"
+  ],
+  "author": "Abhinav Gautam",
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
+  }
+}
