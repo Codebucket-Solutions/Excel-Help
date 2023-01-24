@@ -28,27 +28,27 @@ app.use(excelHelp.middleware);
 The middleware accepts data in following format to quickly export a *json array*)  or an *array of arrays* or *both* and provides a function *res.xlsx* to export it as a file / stream.
 
 ```
-res.xlsx("export.xlsx",[
-	{
-		"type": "json", 
-		"data": [{
-			"foo":"bar",
-			"bar":"foo",
-			"abc":"def"
-		},
-			{
-				"foo":"xyz",
-				"bar":"lak",
-				"abc":"mkx"
-			}]
-	},
-	{
-		"type": "columns",
-		"data": [
-			["yqmxc", "kqyui", "zhasi", "kljhda"],
-			["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-		]
-	}
+res.xlsx("export.xlsx",  [
+  {
+    "type": "json",
+     "data": [{
+       "foo":"bar",
+       "bar":"foo",
+       "abc":"def"
+     },
+     {
+        "foo":"xyz", 
+        "bar":"lak",
+        "abc":"mkx"
+     }]
+},
+{
+  "type": "columns",
+  "data": [
+    ["yqmxc", "kqyui", "zhasi", "kljhda"],
+    ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+]
+}
 ], config?config:{})
 
 ```
