@@ -17,6 +17,10 @@
     "sheetjs",
     "sheet.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codebucket-Solutions/Excel-Help.git"
+  },
   "author": "Abhinav Gautam",
   "license": "MIT",
   "dependencies": {
