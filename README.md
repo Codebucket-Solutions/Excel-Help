@@ -47,7 +47,7 @@ res.xlsx("export.xlsx",  [
   "data": [
     ["yqmxc", "kqyui", "zhasi", "kljhda"],
     ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-]
+   ]
 }
 ], config?config:{})
 
@@ -91,26 +91,26 @@ config may contain the workbook configuration as defined [config](https://docs.s
 const ExcelHelp = require("excel-help");
 let excelHelpWb = new ExcelHelp().addSheet(
 [
-	{
-		"type": "json",
-		"data": [{
-			"foo":"bar",
-			"bar":"foo",
-			"abc":"def"
-		},
-			{
-				"foo":"xyz",
-				"bar":"lak",
-				"abc":"mkx"
-			}]
-	},
-	{
-		"type": "columns",
-		"data": [
-			["yqmxc", "kqyui", "zhasi", "kljhda"],
-			["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-		]
-	}
+  {
+    "type": "json",
+     "data": [{
+       "foo":"bar",
+       "bar":"foo",
+       "abc":"def"
+     },
+     {
+        "foo":"xyz", 
+        "bar":"lak",
+        "abc":"mkx"
+     }]
+},
+{
+  "type": "columns",
+  "data": [
+    ["yqmxc", "kqyui", "zhasi", "kljhda"],
+    ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+   ]
+}
 ],
 "sheet1", //Name of the sheet (Not Mandatory)
 config?config:{} // config object (NotMandatory)
