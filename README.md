@@ -32,22 +32,22 @@ res.xlsx("export.xlsx",[
 		{"
 			type": "json", 
 			"data": [{
-					"foo":"bar",
-					"bar":"foo",
-					"abc":"def"
-				},
-				{
-					"foo":"xyz",
-					"bar":"lak",
-					"abc":"mkx"
-				}]
+                "foo":"bar",
+				"bar":"foo",
+				"abc":"def"
+			},
+			{
+				"foo":"xyz",
+				"bar":"lak",
+				"abc":"mkx"
+			}]
 		},
 		{
 			"type": "columns",
 			"data": [
-						["yqmxc", "kqyui", "zhasi", "kljhda"],
-						["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-					]
+                ["yqmxc", "kqyui", "zhasi", "kljhda"],
+                ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+			]
 		}
 ], config?config:{})
 
@@ -94,22 +94,22 @@ let excelHelpWb = new ExcelHelp().addSheet(
 		{
 			"type": "json", 
 			"data": [{
-					"foo":"bar",
-					"bar":"foo",
-					"abc":"def"
+                     "foo":"bar",
+                     "bar":"foo",
+                     "abc":"def"
 				},
 				{
-					"foo":"xyz",
-					"bar":"lak",
-					"abc":"mkx"
+                    "foo":"xyz",
+                    "bar":"lak",
+                    "abc":"mkx"
 				}]
 		},
 		{
 			"type": "columns",
 			"data": [
-						["yqmxc", "kqyui", "zhasi", "kljhda"],
-						["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-					]
+                   ["yqmxc", "kqyui", "zhasi", "kljhda"],
+                   ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+                ]
 		}
 ],
 "sheet1", //Name of the sheet (Not Mandatory)
