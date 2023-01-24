@@ -1,6 +1,6 @@
 {
   "name": "excel-help",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper + Middleware for exporting excel files based on sheetjs",
   "main": "index.js",
   "scripts": {
