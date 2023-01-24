@@ -53,7 +53,7 @@ res.xlsx("export.xlsx",[
 
 ```
 
-![[output.png]]
+![alt text](https://github.com/Codebucket-Solutions/Excel-Help/blob/master/output.png)
 
 It accepts an array of objects of folklowing format:
 
