@@ -29,26 +29,26 @@ The middleware accepts data in following format to quickly export a *json array*
 
 ```
 res.xlsx("export.xlsx",[
-		{"
-			type": "json", 
-			"data": [{
-                "foo":"bar",
-				"bar":"foo",
-				"abc":"def"
-			},
+	{
+		"type": "json", 
+		"data": [{
+			"foo":"bar",
+			"bar":"foo",
+			"abc":"def"
+		},
 			{
 				"foo":"xyz",
 				"bar":"lak",
 				"abc":"mkx"
 			}]
-		},
-		{
-			"type": "columns",
-			"data": [
-                ["yqmxc", "kqyui", "zhasi", "kljhda"],
-                ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-			]
-		}
+	},
+	{
+		"type": "columns",
+		"data": [
+			["yqmxc", "kqyui", "zhasi", "kljhda"],
+			["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+		]
+	}
 ], config?config:{})
 
 ```
@@ -91,26 +91,26 @@ config may contain the workbook configuration as defined [config](https://docs.s
 const ExcelHelp = require("excel-help");
 let excelHelpWb = new ExcelHelp().addSheet(
 [
-		{
-			"type": "json", 
-			"data": [{
-                     "foo":"bar",
-                     "bar":"foo",
-                     "abc":"def"
-				},
-				{
-                    "foo":"xyz",
-                    "bar":"lak",
-                    "abc":"mkx"
-				}]
+	{
+		"type": "json",
+		"data": [{
+			"foo":"bar",
+			"bar":"foo",
+			"abc":"def"
 		},
-		{
-			"type": "columns",
-			"data": [
-                   ["yqmxc", "kqyui", "zhasi", "kljhda"],
-                   ["yqmxl", "kqyuiads", "zhasida", null, new Date()]
-                ]
-		}
+			{
+				"foo":"xyz",
+				"bar":"lak",
+				"abc":"mkx"
+			}]
+	},
+	{
+		"type": "columns",
+		"data": [
+			["yqmxc", "kqyui", "zhasi", "kljhda"],
+			["yqmxl", "kqyuiads", "zhasida", null, new Date()]
+		]
+	}
 ],
 "sheet1", //Name of the sheet (Not Mandatory)
 config?config:{} // config object (NotMandatory)
