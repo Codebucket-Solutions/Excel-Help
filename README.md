@@ -157,6 +157,6 @@ The *build* functions returns the workbook object . The user can then proced to 
 Example
 
 ```
-excelHelp.XLSX.writeFile(excelHelpWb, filename, write_opts)
+new ExcelHelp().XLSX.writeFile(excelHelpWb, filename, write_opts)
 ```
 
